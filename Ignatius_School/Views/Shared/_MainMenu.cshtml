@@ -1,0 +1,66 @@
+﻿<nav class="nav">
+    <div class="w-layout-blockcontainer container w-container">
+        <div class="nav-wrapper">
+            <a href="~/" class="nav-logo-wrapper w-inline-block">
+                <div class="nav-logo-text">St. Ignatius College School</div>
+            </a>
+            <div class="nav-menu-items-wrapper">
+                <a href="~/about" aria-current="page" class="nav-menu-item w--current">About</a>
+                <a href="~/services" class="nav-menu-item">Services</a>
+                <a href="~/admissions" class="nav-menu-item">Admissions</a>
+                <div data-hover="false" data-delay="0" class="nav-menu-dropdown w-dropdown">
+                    <div class="nav-menu-dropdown-toggle w-dropdown-toggle">
+                        <div class="regular-m">Academics</div>
+                        <img src="~/images/caret-20down.svg" loading="lazy" alt="" class="icon-size-16" />
+                    </div>
+                    <nav class="nav-menu-dropdown-list w-dropdown-list">
+                        <div class="nav-menu-dropdown-list-links">
+                            <a href="~/academics/departments" class="nav-menu-item">Departments</a>
+                            <a href="~/academics/advanced-placement-program" class="nav-menu-item">Advanced Placement Program</a>
+                            <a href="~/academics/safe-schools-program" class="nav-menu-item">Safe Schools Program</a>
+                        </div>
+                    </nav>
+                </div>
+                <a href="@Url.Action("news_events","Home")">News &amp; Events</a>
+                <a href="~/contact-us" class="nav-menu-item">Contact Us</a>
+            </div>
+            <div class="menu-icon-wrapper open">
+                <img src="~/images/hamburger-20menu.svg" loading="lazy" alt="Menu" class="icon-size-28" />
+            </div>
+        </div>
+    </div>
+    <div class="nav-adaptation">
+        <div class="nav-wrapper adaptation">
+            <a href="~/" class="nav-logo-wrapper w-inline-block">
+                <div class="nav-logo-text">St. Ignatius College School</div>
+            </a>
+            <div class="menu-icon-wrapper close">
+                <img src="~/images/cross.svg" loading="lazy" alt="Close" class="icon-size-28" />
+            </div>
+        </div>
+        <div class="nav-adaptation-content">
+            <div class="nav-adaptation-links">
+                <a href="~/about" aria-current="page" class="nav-adaptation-link w--current">About</a>
+                <a href="~/services" class="nav-adaptation-link">Services</a>
+                <a href="~/admissions" class="nav-adaptation-link">Admissions</a>
+                <a href="#" class="nav-adaptation-link dropdown w-inline-block">
+                    <div class="regular-xl">Academics</div>
+                    <img src="~/images/caret-20down.svg" loading="lazy" alt="" class="icon-size-20" />
+                </a>
+                <div class="nav-menu-dropdown-list adaptation">
+                    <div class="nav-menu-dropdown-list-links adaptation">
+                        <a href="~/academics/departments" class="nav-menu-item">Departments</a>
+                        <a href="~/academics/advanced-placement-program" class="nav-menu-item">Advanced Placement Program</a>
+                        <a href="~/academics/safe-schools-program" class="nav-menu-item">Safe Schools Program</a>
+                    </div>
+                </div>
+                <a href="@Url.Action("news_events","Home")" class="nav-adaptation-link">News &amp; Events</a>
+                <a href="~/contact-us" class="nav-adaptation-link">Contact Us</a>
+            </div>
+            <div class="footer-legal">
+                <div class="regular-s color-grey-80">© 2023, All Rights Reserved</div>
+                <a href="~/licenses" class="regular-s color-grey-80 legal-link">Licenses</a>
+            </div>
+        </div>
+    </div>
+</nav>
