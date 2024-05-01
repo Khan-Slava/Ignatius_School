@@ -1,0 +1,31 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+<section class="section margin-top-176-mobile-144">
+    <div class="w-layout-blockcontainer container w-container">
+        <div class="wrapper">
+            <h2 class="h2 max-width-432-mobile-320 margin-bottom-24">Authorization</h2>
+            <div data-current="All" data-easing="ease-in-out" data-duration-in="300" data-duration-out="100" class="tabs w-tabs">
+                
+                <form id="contact-form"
+                      action="@Url.Action("Login", "Home")"
+                      method="post">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" name="login" placeholder="Enter Login">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="password" name="password" placeholder="Enter Password">
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="default-btn">LOGIN</button>
+                        </div>
+                    </div>
+                </form>
+                <p class="form-messege"></p>
+                
+            </div>
+        </div>
+    </div>
+</section>
